@@ -10,6 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "dancycodes/hyper": "^0.1.5",
         "fahlisaputra/laravel-minify": "^1.2",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",

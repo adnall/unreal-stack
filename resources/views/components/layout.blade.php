@@ -46,7 +46,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     {{-- Datastar --}}
-    <script type="module" src="https://cdn.jsdelivr.net/gh/starfederation/datastar@1.0.0-RC.6/bundles/datastar.js"></script>
+    @hyper
 </head>
 
 <body class="antialiased relative min-h-screen font-sans!">

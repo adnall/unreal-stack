@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a341f5435c90d6a820bdcade819a871d",
+    "content-hash": "2fdd77905fc908a4e9c161ba595453e6",
     "packages": [
         {
             "name": "brick/math",
@@ -134,6 +134,84 @@
                 }
             ],
             "time": "2024-02-09T16:56:22+00:00"
+        },
+        {
+            "name": "dancycodes/hyper",
+            "version": "v0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dancycodes/hyper.git",
+                "reference": "dcc20d3655ed4eb13656bb1e943c2ee2d500900d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dancycodes/hyper/zipball/dcc20d3655ed4eb13656bb1e943c2ee2d500900d",
+                "reference": "dcc20d3655ed4eb13656bb1e943c2ee2d500900d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^11.0|^12.0",
+                "php": "^8.2",
+                "symfony/finder": "^5.4.2|^6.0|^7.0"
+            },
+            "require-dev": {
+                "fakerphp/faker": "^1.23",
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.0",
+                "mockery/mockery": "^1.6",
+                "orchestra/testbench": "^9.0 || ^10.0",
+                "phpunit/phpunit": "^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Dancycodes\\Hyper\\HyperServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Dancycodes\\Hyper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "DancyCodes",
+                    "email": "dancycodes@gmail.com",
+                    "homepage": "https://laravel-hyper.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel-native reactive frontends using Datastar. Build dynamic UIs with Blade templates.",
+            "homepage": "https://laravel-hyper.com",
+            "keywords": [
+                "Datastar",
+                "SPA",
+                "blade",
+                "fragments",
+                "htmx-alternative",
+                "hypermedia",
+                "laravel",
+                "livewire-alternative",
+                "reactive",
+                "real-time",
+                "signals",
+                "validation"
+            ],
+            "support": {
+                "docs": "https://laravel-hyper.com",
+                "issues": "https://github.com/dancycodes/hyper/issues",
+                "source": "https://github.com/dancycodes/hyper"
+            },
+            "time": "2025-11-12T18:25:33+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
